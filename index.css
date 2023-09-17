@@ -1,0 +1,124 @@
+.container {
+    border:5px solid #ffcc5c;
+     display: flex;
+     /*flex-direction: row; 
+     
+     /*by fefalt row thake*/
+
+/*flex-direction: column; 
+
+
+/*upor teke nic borabor asbe
+ekhane main axix ta change hoye gese top to bottom hoise*/
+
+/*========control lay out by all =======
+*/
+
+/*justify-content: flex-start; 
+
+
+/*by defalt eita thake >mane main axix er suru teke element gulo por por thakbe*/
+
+
+/*justify-content: flex-end;  
+
+/* main axis er ses teke suru hoye porjai krome surur dike asbe elemnt gulo */
+
+
+
+/*justify-content: center;  
+
+
+
+/*middle thakbe elemnt gulo*/
+
+
+
+/*justify-content: space-around; 
+
+/*protita elemnt er ba mase dan pase space rakbe main container sokol faka jaiga gulo eder modde vag kore dibe space die*/
+
+
+
+/*justify-content: space-between; 
+
+
+/*sudhu matro duti element maje space rakbe ses element r surur elemen container ga ghese takbe dui pase*/
+
+
+
+
+/*======!!!!!!=============
+kintu ei prppertyy gulo die amra ekta ekta element control korte parina sobgulo ektsathe pai nice ekta ekta elemtn alada kore control korar css deua holo
+
+
+
+*/
+
+}  
+
+
+
+
+/*=======[1=====]flexbox property use korte hole obossoi container k display flex korte hobe========*
+      use na korle nab bar er item gulo upor teke nice puro screen jure asbe jokhoni flex kora hobe row borabor ek serial e ektar por ekta asbe/horrizontaly baki jaga ta khali 
+      thakbe  flexbos container ekta block item system ei karone ===========*/ 
+
+
+
+/*==========2=====
+flexbox item one dimentional mane ekta axix/okkho borabor kaj kore by defalt eita left to right er dike kaj kore elemen gulo left to righ e ase*
+upor teke nice borarbor okkho k cross axix bole.amra jokhon item gulo k upor teke nice kore bosabo tokon muloto flex box er main axix change hoye jai upor teke nice hoye jai r corss axix hoye jai left to right================*/
+
+
+
+
+/*====ekta ekta elemen dhore control korar upai====
+element gulo k class die dhorte hobe jetak k cotnrol korte cai*/
+
+/*
+
+.logout{
+    margin-left: auto; 
+}
+*/
+
+/*eita use korle ba pashe kicu jaga reke element ta dan pashe lege takbe*/
+
+
+/*onno elemnt k die deka jak*/
+/*
+.search{
+    margin-left: auto;
+}
+/*
+/*ba pas tkee sore jabe kintu tar dan pase joto element ace segulo k nie sorbe*/
+
+/*same vabe jodi ulta pas teke korte hoi justify-content jodi flex-end hoi tahole element er class dhore margin-righ auto korte hbe tahole element dan pase margin reke ekdom ba pashe cole asbe
+
+nice example deua holo====
+
+justify-content:flex-end; eita container k dite hobe tarpor ekhan teke ber hoye class dhore dorte hbe element ki
+
+.home{}
+margin-right:auto;   
+
+*/
+
+/*===flex property=====
+amra jodi cai j container j faka jaiga ace tar sobgulo element gulo vag kore nie faka jaiga purn kore dik tahole amader flex property use korte hobe container vitorer item gulo te not container e ok 
+flex property number value grohon kore.
+ebong boro coto korlei se responsive behave korbe window onujai jagia vag kore nibe somann kore
+*/
+
+.container > div{
+    flex:1;
+}
+/* 1 dile sobai soman kore jaiga nibe jodi kono element k besi space dite hoi tahole take tar class dore flex property barie dite hobe joto digit deua hobe totogun besi space pabe example
+
+.container > .,search{
+    flex:2;   // tahole se onno gulo teke digun jaga nibe
+}
+jodi sob elemetn teke flex property utie die sudhu ektai use kori tahole jeta te use seita responiseve behabe korbe bakigulo strick fixed width nie thakbe
+
+*/
