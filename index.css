@@ -1,9 +1,11 @@
 .container {
     border:5px solid #ffcc5c;
-     display: flex;
-     /*flex-direction: row; 
+   display:flex;
+   flex-wrap:wrap;  /*defalt nowrap take*/
+
+ /*flex-direction: row; 
      
-     /*by fefalt row thake*/
+ /*by fefalt row thake*/
 
 /*flex-direction: column; 
 
@@ -50,11 +52,29 @@ ekhane main axix ta change hoye gese top to bottom hoise*/
 
 /*======!!!!!!=============
 kintu ei prppertyy gulo die amra ekta ekta element control korte parina sobgulo ektsathe pai nice ekta ekta elemtn alada kore control korar css deua holo
-
-
-
 */
 
+
+
+/*align item======================>
+height porperty apply hobe na jodi html body te height porperty deua na hoi sekhane 100% dite hobe*/
+/*height: 100%;   
+
+/*align-items: stretch; /*defalt vabe eita thake muloto cross axis borabor layout control korar jonno use hoi ba pase lege takbe */
+/*
+align-items: flex-start;  /*eita dile height er purata jure item takbena top e lege takbe bakita backgournd color takbe ba passe lege takbe*/
+
+/*align-items: flex-end;   /*eita dile ulta hobe bototm e cole jabe top er dike faka takbe ba pase lege takbe*/
+/*
+align-items:center;  /*moddhe takbe ---ba pase lege takbe and important note that kono item k tik modde rakar jonno align-items:center and justify-content:center korle hbe*/
+
+/*
+flex-direction: column;  /*top to bototm stack akare takbe main axix change hoye jabe*//*
+justify-content: flex-end;  /*item gulo nice cole jabe upore faka takbe===>ekhetre obossoi lokko rakte hobe height porperty deua hoise kina ebong html body keu height 100% korte hobe*//*
+height:100%;/*
+justify-content: flex-start;  /*item upore lege takbe nice faka takbe*/
+
+/*ekhaneu align items porperty gulo kaj korbe item gulo k dane bame soranor jonno axix vinno hobe eikhetre karon main axix change hoi column er khetre*/
 }  
 
 
@@ -110,10 +130,10 @@ amra jodi cai j container j faka jaiga ace tar sobgulo element gulo vag kore nie
 flex property number value grohon kore.
 ebong boro coto korlei se responsive behave korbe window onujai jagia vag kore nibe somann kore
 */
-
+/*
 .container > div{
     flex:1;
-}
+*/
 /* 1 dile sobai soman kore jaiga nibe jodi kono element k besi space dite hoi tahole take tar class dore flex property barie dite hobe joto digit deua hobe totogun besi space pabe example
 
 .container > .,search{
@@ -122,3 +142,21 @@ ebong boro coto korlei se responsive behave korbe window onujai jagia vag kore n
 jodi sob elemetn teke flex property utie die sudhu ektai use kori tahole jeta te use seita responiseve behabe korbe bakigulo strick fixed width nie thakbe
 
 */
+
+
+/*=====alada kore kono item k cross axxix er dike control korte caile sei layout k class dara dorte hbe [align-items er khetre]
+example bellow*/
+/*
+.logout{
+    align-self: flex-start;
+}
+*/
+
+
+
+/*fex wrap porperty====amra jodi div/item gulo k width dei tahole dekbo nirdisto width sudhu pabe er coto windo te era ektai row nie bose ace nice asbe na wrap hobe na jodi flex wrap use kori tahole coto houar satthe sathe nice cole jabe baki item gulo*/
+
+
+.container > div{
+    width:300px;
+}
