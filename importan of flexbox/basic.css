@@ -1,0 +1,22 @@
+.container > div{
+    padding:10px;
+    text-align: center;
+    font-size: 2em;
+    color:#ffeead;
+}
+html, body{
+    box-sizing: border-box;
+    height: 100%;
+    padding:10px;
+    background-color:#ffeead ;
+   /* margin:10px;
+   */
+}
+.container > div:nth-child(1){
+    background-color: #ff6f69;
+    
+}
+.container > div:nth-child(2){
+    background-color: #88d8b0;
+    
+}

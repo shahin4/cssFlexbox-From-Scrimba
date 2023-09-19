@@ -1,0 +1,26 @@
+.container {
+    border:5px solid #ffcc5c;
+   display:flex;
+
+}
+
+.home{
+   /* flex: 1;/*flex short form of flex-grow,flex-shrink,flex-basiis. flex:1;deua mane prothom duitai one sesertai 0 deua*/
+   flex-basis: 200px;  /*shrink prpperty coto boro responsive er khetrre use korte oi window coto hole item o coto hobe shrink korbe*/
+   flex-grow:1;
+}
+.logout{
+   /* flex:1;*/
+    flex-basis:200px; /*jokon screen boro takbe tik 200 px size pabe bakita faka takbe kintu flex grow use korle baki screen ta item gulo vagabagi kore nibe*/
+    flex-grow:1;
+}
+
+/*
+
+order property
+.item{
+    order:1 // jekono numbur dilei sobar age cole asbe-
+    by defalt 0 thake
+    use positive and negetive number
+    
+*/
